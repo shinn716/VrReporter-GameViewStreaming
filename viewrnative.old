@@ -1,0 +1,20 @@
+274: UnityPluginLoad: Looking Glass Plugin Loaded
+283: UnityPluginLoad: Manually running OnGraphicsDeviceEvent
+283: OnGraphicsDeviceEvent: Called
+284: OnGraphicsDeviceEvent: Initialise Called
+284: OnGraphicsDeviceEvent: Current API is null, setting it from s_Graphics
+287: CreateGraphicsAPIFactory: creating graphics api factory
+288: OnGraphicsDeviceEvent: Processing device event
+751: GraphicsAPIFactory_D3D11::ProcessDeviceEvent: Getting device
+752: OnGraphicsDeviceEvent: Creating Looking Glass Native Ptr
+755: ViewrNative::ViewrNative: no problems intialising graphics api factory
+756: ViewrNative::ViewrNative: no problems intialising encoder api factory
+757: OnGraphicsDeviceEvent: Successfully created Viewr Native Ptr
+124237997: OnGraphicsDeviceEvent: Called
+124237998: OnGraphicsDeviceEvent: Shutdown Called
+124237999: ViewrNative::~ViewrNative: deleting devices
+124238001: ViewrNative::~ViewrNative: is kill
+125026620: OnGraphicsDeviceEvent: Called
+125026621: OnGraphicsDeviceEvent: Shutdown Called
+125026622: ViewrNative::~ViewrNative: deleting devices
+125026623: ViewrNative::~ViewrNative: is kill

@@ -1,0 +1,31 @@
+63685737727866	[verb]	Native.GetInstance: Native plugin loaded (351102816)
+63685737728516	[verb]	Calling into native to Intialise
+63685737728516	[verb]	Native.TestFunction: Testing with value -37336572
+63685737728516	[verb]	ViewRInterface.Awake: has awoken from ancient tomb
+63685737728516	[verb]	ViewRInterface.Awake: getting new Instance of native
+63685737728521	[verb]	ViewRInterface.Awake: Assigning events
+63685737728522	[verb]	ViewRInterface.Awake: Waiting for connection
+63685737728523	[verb]	ViewRInterface.Awake: Setup Error is None
+63685737728523	[verb]	DeviceManager.WaitForDataConnection: started
+63685737728523	[verb]	DeviceManager.WaitForDataConnection: starting listen for broadcast thread
+63685737728523	[verb]	ViewRInterface.Awake: Updating tracking refs
+63685737728523	[verb]	DeviceManager.WaitForDataConnection: is alive
+63685737728523	[verb]	DeviceManager.WaitForDataConnection: listen for broadcast thread started
+63685737728524	[verb]	DeviceManager.ListenForClients: Listen Start
+63685737728524	[verb]	ViewRInterface.Awake: Awake has finished
+63685737728525	[verb]	DeviceManager.ListenForClients: IPEndPoint set
+63685737728525	[verb]	DeviceManager.ListenForClients: Broadcast Enabled
+63685737728526	[verb]	DeviceManager.WaitForDataConnection: Listening to connections on: fe80::d43c:9a46:e66a:2ac1, 192.168.0.111 on port 42424
+63685737728527	[verb]	ViewR Interface: Listening to connections on: fe80::d43c:9a46:e66a:2ac1, 192.168.0.111 on port 42424
+63685737728527	[verb]	DeviceManager.WaitForDataConnection: entering loop
+63685737728527	[verb]	DeviceManager.WaitForDataConnection: handle reset
+63685737728528	[verb]	AttachARCoreTracker.OnEnable: Enabled
+63685737728555	[verb]	AttachARCoreTracker.Start: Registering Listener
+63685737730094	[verb]	DeviceManager.WaitForDataConnection: ended
+63685737730095	[verb]	DeviceManager.ListenForClients: System.Net.Sockets.SocketException: 中止操作被 WSACancelBlockingCall 呼叫打斷。
+
+  at System.Net.Sockets.Socket.ReceiveFrom_nochecks_exc (System.Byte[] buf, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint& remote_end, Boolean throwOnError, System.Int32& error) [0x00000] in <filename unknown>:0 
+  at System.Net.Sockets.Socket.ReceiveFrom_nochecks (System.Byte[] buf, Int32 offset, Int32 size, SocketFlags flags, System.Net.EndPoint& remote_end) [0x00000] in <filename unknown>:0 
+  at System.Net.Sockets.Socket.ReceiveFrom (System.Byte[] buffer, System.Net.EndPoint& remoteEP) [0x00000] in <filename unknown>:0 
+  at System.Net.Sockets.UdpClient.Receive (System.Net.IPEndPoint& remoteEP) [0x00000] in <filename unknown>:0 
+  at Include.VR.ViewR.Networking.DeviceManager.ListenForClients () [0x0004b] in C:\Users\CYao\Documents\Projects\Include\ViewR\viewr-core\cs-server\VideoSinkServer\DeviceManager.cs:136 
